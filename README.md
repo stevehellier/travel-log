@@ -12,7 +12,7 @@
     * Create a new log entry
 * [x] GET / logs
     * List all log entires
-* [ ] Setup Client
-* [ ] Create Form to add a new entry
-* [ ] Setup Map SDK on Client
-* [ ] List all log entries on map
+* [x] Setup Client
+* [x] Create Form to add a new entry
+* [x] Setup Map SDK on Client
+* [x] List all log entries on map
