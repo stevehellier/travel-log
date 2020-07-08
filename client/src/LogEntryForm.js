@@ -16,7 +16,6 @@ const LogEntryForm = ({ location, onClose }) => {
       console.log(data);
       const created = await createLogEntry(data);
       console.log(created);
-      
       onClose();
     } catch (error) {
       console.log(error);
@@ -27,11 +26,9 @@ const LogEntryForm = ({ location, onClose }) => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className='entry-form'>
-      {error ? <h3 classNam='error'>{error}</h3> : null}
-      {/* <h3>Add Entry</h3>
-      <small>
-        {location.latitude}, {location.longitude}
-      </small> */}
+      {error ? <h3 className='error'>{error}</h3> : null}
+      <label htmlFor='apiKey'>API Key</label>
+      <input name='apiKey' type='password' required ref={register}  />
       <label htmlFor='title'>Title</label>
       <input name='title' required ref={register} />
       <label htmlFor='description'>Description</label>
