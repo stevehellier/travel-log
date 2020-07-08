@@ -15,7 +15,7 @@ const logEntrySchema = new Schema(
     },
     description: String,
     comments: String,
-    vistDate: {
+    visitDate: {
       required: true,
       type: Date,
     },
