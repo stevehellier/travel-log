@@ -1,4 +1,4 @@
-const API_URL = 'http://192.168.250.50:1337';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:1337' : 'http://192.168.250.50:1337';
 
 export async function listLogEntries() {
     const response = await fetch(`${API_URL}/api/logs`);
