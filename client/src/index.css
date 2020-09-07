@@ -23,6 +23,9 @@ body {
 .marker.yellow path {
   fill: #f3b73e;
 }
+.marker.green path {
+  fill: #04b404;
+}
 
 .popup {
   width: 25vw;
