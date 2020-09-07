@@ -11,7 +11,7 @@
 * [x] POST / logs
     * Create a new log entry
       * [ ] Places have visited
-      * [ ] Placess to vist
+      * [ ] Places to vist
 * [x] GET / logs
     * List all log entires
 * [x] Setup Client
