@@ -10,7 +10,7 @@
 * [x] Setup Mongoose Model(s)
 * [x] POST / logs
     * Create a new log entry
-      * [ ] Places have visited
+      * [x] Places have visited
       * [ ] Places to vist
 * [x] GET / logs
     * List all log entires
